@@ -1,13 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "name": "Nocturne Designs",
+  "projectType": "saas",
+  "projectName": "Nocturne Designs",
+  "projectDescription": "Staff guide and policy documentation for Nocturne Designs team members across Creative, Public Relations, Company Associates, and Operations departments.",
   "theme": "willow",
-  "colors": {
-    "primary": "#8c9494",
-    "light": "#cecfd0",
-    "dark": "#1e1f20"
-  },
-  "favicon": "https://media.brand.dev/a1b7c7b0-1e69-4174-85de-ed3e5dcaa5b6.png",
+  "primaryColor": "#8c9494",
+  "lightColor": "#1e1f20",
+  "darkColor": "#cecfd0",
   "navigation": {
     "groups": [
       {
@@ -53,5 +51,13 @@
         ]
       }
     ]
-  }
+  },
+  "keyFeatures": [
+    "Company-wide policies covering payments, conduct, and professionalism",
+    "Creative Team order workflow with 95% commission structure",
+    "Quality control requirements for all designs",
+    "Ticket-based support and escalation procedures",
+    "Department-specific role guides"
+  ],
+  "publicApiSurface": []
 }
